@@ -1,7 +1,12 @@
+import java.util.Scanner;
 public class hello_world
 {
 public static void main(String args[])
 {
-System.out.println("Hello World");
+Scanner scan =new Scanner(System.in);
+System.out.println("Enter String :");
+String st=scan.nextLine();
+System.out.println("Hello World!");
+System.out.println(st);
 }
 }
